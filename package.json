@@ -1,0 +1,51 @@
+{
+  "name": "shop-contracts-solidity",
+  "version": "0.0.1",
+  "description": "Geodicon shop solidity contracts",
+  "main": "index.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "standard --fix && truffle test --stack",
+    "testrpc": "testrpc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geodicon/shop-contracts-solidity.git"
+  },
+  "keywords": [
+    "geodicon",
+    "geoticon",
+    "solidity",
+    "ethereum",
+    "contract",
+    "identicon",
+    "3D"
+  ],
+  "authors": [
+    "Antoine Goutenoir <antoine@goutenoir.com> (http://antoine.goutenoir.com)",
+    "Johan Dufour <johan.dufour@gmail.com> (https://github.com/lutangar)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geodicon/shop-contracts-solidity/issues"
+  },
+  "homepage": "https://github.com/geodicon/shop-contracts-solidity#readme",
+  "devDependencies": {
+    "ethereumjs-testrpc": "^6.0.1",
+    "standard": "^10.0.3",
+    "truffle": "^4.0.1"
+  },
+  "standard": {
+    "env": [
+      "node",
+      "mocha"
+    ],
+    "globals": [
+      "artifacts",
+      "contract",
+      "web3",
+      "assert"
+    ]
+  }
+}
