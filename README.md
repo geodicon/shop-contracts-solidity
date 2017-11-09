@@ -8,6 +8,10 @@ Geodicon shop solidity contracts.
 
 ## Test
 
+1. Launch `testrpc`
+`npm run testrpc` 
+
+2. Run the tests
 `npm test` 
 
 > https://github.com/ConsenSys/Tokens 
